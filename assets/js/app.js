@@ -93,8 +93,7 @@ $(".swiper-wrapper").slick({
   slidesToShow: 2,
   adaptiveHeight: true,
   centerMode: true,
-  variableWidth: true,
-  centerPadding: 12,
+  variableWidth: false,
   responsive: [
     {
       breakpoint: 600,
