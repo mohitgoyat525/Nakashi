@@ -93,7 +93,6 @@ $(".swiper-wrapper").slick({
   slidesToShow: 2,
   adaptiveHeight: true,
   centerMode: true,
-  // variableWidth: true,
   responsive: [
     {
       breakpoint: 600,
@@ -105,15 +104,6 @@ $(".swiper-wrapper").slick({
   ],
 });
 // ------------------youtube-video------
-    // document
-    //   .getElementById("play-video")
-    //   .addEventListener("click", function () {
-    //     const videoDiv = document.querySelector(".video");
-    //     const videoURL = "https://youtu.be/pge4IvwQFA8?t=138"; 
-        
-    //     videoDiv.innerHTML = `<iframe width="100%" height="100%" src="https://www.youtube.com/embed/pge4IvwQFA8?si=LZ6AwY9R-mx_FaCC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`;
-    //   });
-
     document
       .getElementById("play-video")
       .addEventListener("click", function () {
