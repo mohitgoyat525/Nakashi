@@ -64,7 +64,6 @@ $(".anime-slider").slick({
   centerPadding: "0px",
 });
 
- // Add opacity effect for slides
  $(".anime-slider").on(
    "init afterChange",
    function (event, slick, currentSlide) {
@@ -130,10 +129,6 @@ $(".swiper-wrapper").slick({
      });
    });
  });
-
-// 
-
-
 
 // ==========back to top=============
 document.addEventListener("DOMContentLoaded", () => {
