@@ -81,11 +81,13 @@
     @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend+Deca:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sawarabi+Gothic&display=swap');
     @import url("https://fonts.cdnfonts.com/css/reality-hyper");
 
+    *{
+      scroll-behavior: smooth !important;
+    }
+
     .freind {
       text-shadow: 0px 0px 40px #ffffff !important;
     }
-
-
 
     .roadmap-box .point-hover:hover,
     .roadmap-box:hover .point-hover {
@@ -174,33 +176,33 @@
           <div id="navbar-items"
             class="z-50 lg:hidden w-full h-screen backdrop-blur-[40px] fixed top-0 right-[-100%] flex items-center justify-center flex-col">
             <ul class="flex flex-col gap-6 text-center">
-              <li class="">
-                <a class="text-white font-normal text-xsm font-lexendDeca hover:transform hover:translate hover:scale-150 duration-300 ease-linear transition-all"
-                  href="/">ABOUT</a>
+              <li>
+                <a class="text-white font-normal text-xsm hover:transform hover:translate hover:scale-150 duration-300 ease-linear transition-all"
+                  href="#nakashi">ABOUT</a>
               </li>
-              <li class="">
-                <a class="text-white font-normal text-xsm font-lexendDeca hover:transform hover:translate hover:scale-150 duration-300 ease-linear transition-all"
-                  href="/">CHARACTER</a>
+              <li>
+                <a class="text-white font-normal text-xsm hover:transform hover:translate hover:scale-150 duration-300 ease-linear transition-all"
+                  href="#charcter">CHARACTER</a>
               </li>
-              <li class="">
-                <a class="text-white font-normal text-xsm font-lexendDeca hover:transform hover:translate hover:scale-150 duration-300 ease-linear transition-all"
-                  href="/">GALLERY</a>
+              <li>
+                <a class="text-white font-normal text-xsm hover:transform hover:translate hover:scale-150 duration-300 ease-linear transition-all"
+                  href="#gallery">GALLERY</a>
               </li>
-              <li class="">
-                <a class="text-white font-normal text-xsm font-lexendDeca hover:transform hover:translate hover:scale-150 duration-300 ease-linear transition-all"
-                  href="/">HOW IT WORKS</a>
+              <li>
+                <a class="text-white font-normal text-xsm hover:transform hover:translate hover:scale-150 duration-300 ease-linear transition-all"
+                  href="#animation">HOW IT WORKS</a>
               </li>
-              <li class="">
-                <a class="text-white font-normal text-xsm font-lexendDeca hover:transform hover:translate hover:scale-150 duration-300 ease-linear transition-all"
-                  href="/">ROADMAP</a>
+              <li>
+                <a class="text-white font-normal text-xsm hover:transform hover:translate hover:scale-150 duration-300 ease-linear transition-all"
+                  href="#roadmap">ROADMAP</a>
               </li>
-              <li class="">
-                <a class="text-white font-normal text-xsm font-lexendDeca hover:transform hover:translate hover:scale-150 duration-300 ease-linear transition-all"
-                  href="/">TEAM</a>
+              <li>
+                <a class="text-white font-normal text-xsm hover:transform hover:translate hover:scale-150 duration-300 ease-linear transition-all"
+                  href="#team">TEAM</a>
               </li>
-              <li class="">
-                <a class="text-white font-normal text-xsm font-lexendDeca hover:transform hover:translate hover:scale-150 duration-300 ease-linear transition-all"
-                  href="/">FAQ</a>
+              <li>
+                <a class="text-white font-normal text-xsm hover:transform hover:translate hover:scale-150 duration-300 ease-linear transition-all"
+                  href="#faq">FAQ</a>
               </li>
             </ul>
             <img id="cross" src="./assets/images/svg/cross.svg" alt="cross" class="absolute top-[4%] right-[5%]" />
@@ -398,7 +400,7 @@
       class="bottom-0 absolute w-full pointer-events-none" />
   </section>
   <!-- -----------character-slider-section------- -->
-  <section
+  <section id="charcter"
     class="flex items-center bg-[url('assets/images/png/slider-section-bg-img.png')] bg-cover bg-no-repeat relative">
     <div class="container">
       <div class="flex items-center max-lg:flex-col py-[100px] max-lg:py-[80px] max-md:py-14 max-sm:py-11">
@@ -503,7 +505,7 @@
       class="absolute bottom-0 w-full pointer-events-none" />
   </section>
   <!-- ------------managa-pages-------------------->
-  <section>
+  <section id="gallery">
     <div class="container pt-11 max-lg:pt-5">
       <div class="flex justify-between items-center max-lg:flex-col">
         <div class="flex items-center justify-center w-full max-w-[286px] lg:hidden mx-auto">
@@ -689,7 +691,7 @@
     </div>
   </section>
   <!--------------animation-play------------------>
-  <section
+  <section id="animation"
     class="pt-[100px] max-lg:pt-[50px] max-md:pt-10 max-sm:pt-5 bg-[url('assets/images/png/how-It-works-bg-img.png')] bg-no-repeat bg-cover bg-center relative">
     <div class="container">
       <div class="lg:hidden mx-auto w-full max-w-[308px]">
@@ -832,7 +834,7 @@
     </div>
   </section>
   <!-- --------------team-section----------------->
-  <section class="bg-[url('assets/images/png/roadmap-start-bg-img.png')] bg-cover bg-center bg-no-repeat">
+  <section id="team" class="bg-[url('assets/images/png/roadmap-start-bg-img.png')] bg-cover bg-center bg-no-repeat">
     <div class="px-3 container pt-[100px]">
       <div class="lg:hidden mx-auto w-full max-w-[446px]">
         <img src="assets/images/png/sm-team-bg-img.png" alt="team" class="w-full" />
@@ -1122,7 +1124,8 @@
     </div>
   </section>
   <!-- --------------- faq--section ------- -->
-  <section
+  <section id="faq"
+
     class="max-sm:min-h-[800px] bg-black-bg-2 bg-black bg-cover bg-no-repeat flex justify-center items-center relative -mt-1 lg:py-[100px] py-[50px]">
     <div class="container mx-auto px-3 justify-center flex flex-col items-center relative max-md:pt-7">
       <img class="absolute lg:max-h-[908px] min-h-[900px] max-lg:hidden" src="./assets/images/png/faq--bg-img.png"
@@ -1308,19 +1311,19 @@
         <div class=" flex lg:justify-end justify-center md:pt-0 pt-10">
           <div class="flex gap-4">
             <a href="https://web.telegram.org/"
-              class="xl:size-12 hover:bg-blue  bg-white bg-opacity-[10%] p-[14px] flex justify-center items-center rounded-full hover:transform hover:translate hover:scale-150 duration-300 ease-linear transition-all">
+              class="xl:size-12  bg-opacity-[10%] p-[14px] flex justify-center items-center rounded-full hover:transform hover:translate hover:scale-150 duration-300 ease-linear transition-all">
               <img class="xl:size-5" src="./assets/images/svg/telegram-icon.svg" alt="telegram-icon" />
             </a>
             <a href="https://www.discord.com"
-              class="xl:size-12 hover:bg-blue bg-white bg-opacity-[10%] p-[14px] flex justify-center items-center rounded-full hover:transform hover:translate hover:scale-150 duration-300 ease-linear transition-all">
+              class="xl:size-12 bg-opacity-[10%] p-[14px] flex justify-center items-center rounded-full hover:transform hover:translate hover:scale-150 duration-300 ease-linear transition-all">
               <img class="xl:size-5" src="./assets/images/svg/discord-icon.svg" alt="discord-icon" />
             </a>
             <a href="https://www.twitter.com"
-              class="xl:size-12 hover:bg-blue  bg-white bg-opacity-[10%] p-[14px] flex justify-center items-center rounded-full hover:transform hover:translate hover:scale-150 duration-300 ease-linear transition-all">
+              class="xl:size-12  bg-opacity-[10%] p-[14px] flex justify-center items-center rounded-full hover:transform hover:translate hover:scale-150 duration-300 ease-linear transition-all">
               <img class="xl:size-5" src="./assets/images/svg/twitter-icon.svg" alt="twitter-icon" />
             </a>
             <a href="https://web.telegram.org/"
-              class="xl:size-12 hover:bg-blue  bg-white bg-opacity-[10%] p-[14px] flex justify-center items-center rounded-full hover:transform hover:translate hover:scale-150 duration-300 ease-linear transition-all">
+              class="xl:size-12  bg-opacity-[10%] p-[14px] flex justify-center items-center rounded-full hover:transform hover:translate hover:scale-150 duration-300 ease-linear transition-all">
               <img class="xl:size-5" src="./assets/images/svg/ship-icon.svg" alt="ship-icon" />
             </a>
           </div>
